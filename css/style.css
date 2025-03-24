@@ -44,10 +44,10 @@ html, body {
 
 .content-media {
   display: flex;
-  gap: 5.27rem;
+  gap: 4.45rem;
 }
 .content-media__content {
-  flex: 0 0 20.40909rem;
+  flex: 0 0 25.7272rem;
   padding-top: 4.09rem;
   text-align: right;
 }
@@ -146,7 +146,7 @@ html, body {
   background: #E3E3E3;
 }
 .hero-section__container {
-  padding: 10.68rem 22.27rem 4.95rem 16.59rem;
+  padding: 10.68rem 17.36rem 4.95rem 17rem;
 }
 
 
@@ -190,8 +190,8 @@ html, body {
   object-fit: cover;
 }
 .about-section__content {
-  flex: 0 0 14.45455rem;
-  margin-top: 10.82rem;
+  flex: 0 0 12.31818rem;
+  margin-top: 12.82rem;
 }
 
 
