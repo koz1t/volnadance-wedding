@@ -464,11 +464,28 @@ html, body {
   text-shadow: 0 0 0.5rem #FEA3BB;
 }
 .footer__instagram {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 0.73rem;
   border: 0.15rem solid transparent;
   transition: 0.3s all;
+}
+.footer__instagram::after {
+  content: 'Перейти в instagram';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;
+  color: #FEA3BB;
+  width: 90%;
+  text-align: center;
+  transition: inherit;
+}
+.footer__instagram:not(:hover)::after {
+  opacity: 0;
+  visibility: hidden;
 }
 .footer__instagram:hover {
   background-color: rgba(0, 0, 0, 0.5);
